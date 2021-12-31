@@ -1,0 +1,10 @@
+.test {
+  width: 100%;
+  min-height: 50vh;
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

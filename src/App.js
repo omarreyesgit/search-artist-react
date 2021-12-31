@@ -1,10 +1,17 @@
-import './App.css';
-import SongSearch from './components/SongSearch';
+import "./App.css";
+import SongForm from "./components/SongForm";
 
 function App() {
   return (
     <div className="App">
-     <SongSearch/>
+      <div
+        className="test"
+        style={{ backgroundImage: "url('/img/concert.jpg')" }}
+      >
+        <div className="form-container">
+          <SongForm />
+        </div>
+      </div>
     </div>
   );
 }
